@@ -1,0 +1,11 @@
+#contact {
+    padding: 5rem;
+    text-align: center;
+}
+
+@media(min-width: 50em) {
+    #contact p {
+        padding: 10rem;
+        text-align: center;
+    }
+}

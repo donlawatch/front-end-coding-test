@@ -1,0 +1,20 @@
+
+.header .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-container {
+    max-width: 90%;
+    margin: 20px auto;
+}
+
+.header img {
+    width: 143px;
+    height: 17px;
+}
+
+.header-nav img {
+    width: 44px;
+}

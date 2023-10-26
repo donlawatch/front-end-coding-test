@@ -1,0 +1,32 @@
+.hero-container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+.even-columns {
+    display: grid;
+    place-items: center;
+    gap: 3rem;
+}
+
+.hero-image {
+    text-align: center;
+}
+
+.sub-headline {
+    margin-top: 5rem;
+}
+
+@media(min-width: 50em) {
+    .even-columns {
+        grid-auto-flow: column;
+        grid-auto-columns: 1fr;
+    }
+}
+
+@media(max-width: 50em) {
+    .hero-image img {
+        width: 100%;
+        max-width: 357px;
+        max-height: 445px;
+    }
+}

@@ -1,0 +1,8 @@
+.button {
+    font-weight: var(--fw-semi-bold);
+    margin-top: 30px;
+    padding: 14px 30px;
+    border-radius: 5px;
+    color: var(--clr-dark-green);
+    background: linear-gradient(90deg, #E3FFE6 0%, #E5E1D6 100%);
+}

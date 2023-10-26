@@ -1,0 +1,25 @@
+.card {
+    border-left: solid;
+    border-width: 1px;
+    border-image: linear-gradient(90deg, #E3FFE6 0%, #E5E1D6 100%) 1 100%;
+}
+
+.card-body {
+    padding: 2rem 2rem 0 2rem;
+}
+
+.card-body h3 {
+    margin-bottom: 0.5rem;
+}
+
+.card-body p {
+    font-style: italic;
+}
+
+.count {
+    padding: 0.5rem;
+    width: max-content;
+    transform: translateX(-1px);
+    color: var(--clr-dark-green);
+    background: linear-gradient(135deg, #E3FFE6 0%, #E5E1D6 100%);
+}

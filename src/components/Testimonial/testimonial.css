@@ -1,0 +1,13 @@
+.testimonial {
+    color: #636D5B;
+    text-decoration: underline;
+    margin-top: 1rem;
+}
+
+.testimonial ul {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    align-items: center;
+    margin-top: 1rem;
+}
